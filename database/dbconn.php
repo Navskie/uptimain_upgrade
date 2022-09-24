@@ -2,7 +2,7 @@
   $host = 'localhost'; #online hostname
   $user = 'root'; #online username
   $pass = ''; #online password
-  $dbms = 'uptiph'; #online dbname
+  $dbms = 'uptiph'; #online dbname test
 
   try
   {
