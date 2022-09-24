@@ -2,6 +2,7 @@
     </div>
   </div>
 </div>
+</body>
 <!-- Warning Section Ends -->
 <!-- Required Jquery -->
 <script type="text/javascript" src="components/jquery/js/jquery.min.js"></script>
@@ -29,6 +30,4 @@
 <script src="assets/js/menu/menu-hori-fixed.js"></script>
 <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="assets/js/jquery.mousewheel.min.js"></script>
-</body>
-
 </html>
