@@ -27,6 +27,8 @@
     <link rel="stylesheet" type="text/css" href="assets/pages/prism/prism.css">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Custome.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <!--color css-->
 
     <link rel="stylesheet" type="text/css" href="assets/css/linearicons.css">
