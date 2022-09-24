@@ -158,7 +158,7 @@
         <!-- Inventory -->
         <li class="pcoded-hasmenu">
           <a href="javascript:void(0)">
-            <span class="pcoded-micon"><i class="ti-pencil-alt" aria-hidden="true"></i></span>
+            <span class="pcoded-micon"><i class="ti-package" aria-hidden="true"></i></span>
             <span class="pcoded-mtext">Inventory</span>
             <span class="pcoded-mcaret"></span>
           </a>
@@ -214,7 +214,7 @@
         <!-- Purchase Order -->
         <li class="pcoded-hasmenu">
           <a href="javascript:void(0)">
-            <span class="pcoded-micon"><i class="ti-pencil-alt" aria-hidden="true"></i></span>
+            <span class="pcoded-micon"><i class="ti-clipboard" aria-hidden="true"></i></span>
             <span class="pcoded-mtext">Purchase Order</span>
             <span class="pcoded-mcaret"></span>
           </a>
@@ -253,7 +253,61 @@
         </li>
         <!-- Purchase Order End -->
 
-
+        <!-- Account Order -->
+        <li class="pcoded-hasmenu">
+          <a href="javascript:void(0)">
+            <span class="pcoded-micon"><i class="ti-user" aria-hidden="true"></i></span>
+            <span class="pcoded-mtext">Accounts</span>
+            <span class="pcoded-mcaret"></span>
+          </a>
+          <ul class="pcoded-submenu">
+            <li class="pcoded-hasmenu">
+              <a href="javascript:void(0)">
+                <span class="pcoded-micon"><i class="ti-layers"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Reseller</span>
+                <span class="pcoded-mcaret"></span>
+              </a>
+              <ul class="pcoded-submenu">
+                <li class=" ">
+                  <a href="form-elements-component.html">
+                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                    <span class="pcoded-mtext" data-i18n="nav.form-components.form-components">Old Reseller</span>
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                </li>
+                <li class=" ">
+                  <a href="form-elements-component.html">
+                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                    <span class="pcoded-mtext" data-i18n="nav.form-components.form-components">New Reseller</span>
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                </li>
+                <li class=" ">
+                  <a href="form-elements-component.html">
+                    <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                    <span class="pcoded-mtext" data-i18n="nav.form-components.form-components">Main Reseller</span>
+                    <span class="pcoded-mcaret"></span>
+                  </a>
+                </li>
+              </ul>
+              <li class=" ">
+                <a href="javascript:void(0)">
+                  <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                  <span class="pcoded-mtext">Employee</span>
+                  <span class="pcoded-mcaret"></span>
+                </a>
+              </li>
+              <li class=" ">
+                <a href="javascript:void(0)">
+                  <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                  <span class="pcoded-mtext">Stockist</span>
+                  <span class="pcoded-mcaret"></span>
+                </a>
+              </li>
+            </li>
+          </ul>
+        </li>
+        <!-- Account Order End -->
       </ul>
     </div>
   </nav>
