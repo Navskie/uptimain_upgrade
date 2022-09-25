@@ -1,6 +1,6 @@
+<?php require_once 'database/dbconn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Uptimised Corporation</title>
     <meta charset="utf-8">

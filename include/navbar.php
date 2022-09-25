@@ -11,7 +11,7 @@
             <a class="mobile-search morphsearch-search" href="#">
                 <i class="ti-search"></i>
             </a>
-            <a href="index.html">
+            <a href="index">
                 <img class="img-fluid" src="assets/images/uptimised.png" alt="Theme-Logo">
             </a>
             <a class="mobile-options">

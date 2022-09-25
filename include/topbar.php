@@ -11,7 +11,7 @@
             </a>
             <ul class="pcoded-submenu">
                 <li class=" ">
-                  <a href="javascript:void(0)">
+                  <a href="sales">
                     <span class="pcoded-micon"><i class="ti-home"></i></span>
                     <span class="pcoded-mtext" data-i18n="nav.dash.main">Sales Dashboard</span>
                     <span class="pcoded-mcaret"></span>

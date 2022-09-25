@@ -3,5 +3,41 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^admin/([0-9]+)/([0-9a-zA-Z_-]+) admin.php?id=$1&name=$2 [NC,L]
-RewriteRule ^accounting accounting.php
+RewriteRule ^index index.php
+
+# Dashboard
+RewriteRule ^sales sales.php
+RewriteRule ^eod eod.php
+RewriteRule ^ranking ranking.php
+
+# Reports
+RewriteRule ^osr-sales osr-sales.php
+RewriteRule ^osr-excel osr-excel.php
+RewriteRule ^reseller-sales reseller-sales.php
+RewriteRule ^reseller-excel reseller-excel.php
+RewriteRule ^product-sales product-sales.php
+RewriteRule ^report-warehouse report-warehouse.php
+RewriteRule ^report-country report-country.php
+RewriteRule ^osr-sales osr-sales.php
+RewriteRule ^stockist-refund stockist-refund.php
+RewriteRule ^stockist-refund-excel stockist-refund-excel.php
+RewriteRule ^poid-information poid-information.php
+
+# Inventory
+RewriteRule ^warehouse-ph warehouse-ph.php
+RewriteRule ^warehouse-kr warehouse-kr.php
+RewriteRule ^warehouse-tw warehouse-tw.php
+RewriteRule ^inventory-country inventory-country.php
+RewriteRule ^critical-stocks critical-stocks.php
+
+# Purchase Order
+RewriteRule ^warehouse-po warehouse-po.php
+RewriteRule ^warehouse-ph-po warehouse-ph-po.php
+RewriteRule ^file-purchase-order file-purchase-order.php
+
+# Accounts
+RewriteRule ^old-reseller old-reseller.php
+RewriteRule ^new-reseller new-reseller.php
+RewriteRule ^main-reseller main-reseller.php
+RewriteRule ^employee employee.php
+RewriteRule ^stockist stockist.php
